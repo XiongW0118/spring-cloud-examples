@@ -1,0 +1,7 @@
+server:
+  port: 8088
+rocketmq:
+  name-server: localhost:9876
+  producer:
+    group: myprovider
+

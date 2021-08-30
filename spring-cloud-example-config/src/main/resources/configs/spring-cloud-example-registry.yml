@@ -1,0 +1,15 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: spring-cloud-example-registry
+
+# Eureka相关配置
+eureka:
+  client:
+    register-with-eureka: false #不注册服务
+    fetch-registry: false #不拉去服务清单
+    serviceUrl:
+      defaultZone: http://localhost:${server.port}/eureka/ #多个通过英文逗号分隔
+

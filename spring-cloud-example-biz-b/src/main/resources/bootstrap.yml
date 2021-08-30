@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    config:
+      name: spring-cloud-example-biz-b #配置文件名称，多个通过逗号分隔
+      uri: http://localhost:8000 #Config Server服务地址
